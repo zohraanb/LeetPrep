@@ -1,19 +1,17 @@
 from typing import List
 
-
-# def twosum(nums, integer):
-#     for i, n in enumerate(nums):
-#         print(i)
-#         if n > integer:
-#             continue
-#         for j, m in enumerate(nums, start= i):
-#             if (n+m == integer):
-#                 print(i, "," , j)
-#                 return
-
-
-
-# twosum([2, 7 , 11, 15], 9)
+# my solution
+# class Solution:
+#     def twoSum(self, nums: List[int], target: int) -> List[int]:
+#         for i, n in enumerate(nums):
+#             if n > target:
+#                 continue
+#             for j, m in enumerate(nums):
+#                 if j == i:
+#                     continue
+#                 elif (n+m == target):
+#                     return(i,j)
+#         return
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
